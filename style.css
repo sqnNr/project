@@ -1,0 +1,42 @@
+/* Сброс отступов и полей */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+
+}
+
+/* Общие стили для страницы */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 0;
+    background-color: hsl(60, 33%, 76%);
+}
+
+/* Контейнер для изображений */
+.image-container {
+    width: 100%;
+    overflow: hidden;
+    background-color: #fff; /* Белый фон для контейнера, если требуется */
+}
+
+/* Стили для изображений */
+.image-container img {
+    display: block;
+    width: 100%;
+    height: auto; /* Сохранение пропорций изображений */
+}
+
+/* Стили для заголовков h1 */
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: red; /* Цвет заголовка (можно изменить) */
+}
+
+/* Стили для горизонтальной линии */
+hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
